@@ -28,7 +28,7 @@ export default function MiniPlayer({ id, videoTitle }) {
 
       <span className={`material-icons-outlined  ${classes.open}`} > play_circle_filled </span>
       <span className={`material-icons-outlined  ${classes.close}`} onClick={toggleFloatingBtn} > close </span>
-      <ReactPlayer url={videoUrl} className={classes.player1} width="300px" height="200px" playing={status} controls />
+      <ReactPlayer url={videoUrl}  className={classes.player1} width="300px" height="200px" playing={status} controls />
       <p>{videoTitle}</p>
 
     </div>
